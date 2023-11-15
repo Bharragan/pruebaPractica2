@@ -41,7 +41,17 @@ const getProfile = async (req, res) => {
   }
 };
 
+const deleteAllProfiles = async (req, res) => {
+  try {
+    await ProfileModel.deleteMany();
+    res.json({ message: 'Todos los perfiles han sido eliminados.' });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
 module.exports = {
   createProfile,
   getProfile,
+  deleteAllProfiles,
 };
