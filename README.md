@@ -52,11 +52,11 @@ git clone https://github.com/Bharragan/pruebaPractica2.git
 
      ```plaintext
      PORT=3001
-     DB_CONNECTION_STRING=mongodb://localhost:27017/tu-base-de-datos
+     MONGODB_URI=mongodb://localhost:27017/tu-base-de-datos
      ```
 
      - `PORT`: Puerto en el que se ejecutará el servidor.
-     - `DB_CONNECTION_STRING`: Cadena de conexión a tu base de datos MongoDB.
+     - `MONGODB_URI`: Cadena de conexión a tu base de datos MongoDB.
 
 2. **Instalación de Dependencias:**
    - Asegúrate de haber instalado las dependencias del backend con `npm install` en el directorio `backend`.
@@ -76,7 +76,7 @@ Con estos pasos, habrás configurado el backend de tu aplicación.
      REACT_APP_API_URL=http://localhost:3001
      ```
 
-     - `REACT_APP_API_URL`: URL del backend.
+     - `REACT_APP_API_URL`= URL del backend.
 
 2. **Instalación de Dependencias:**
    - Asegúrate de haber instalado las dependencias del frontend con `npm install` en el directorio `frontend`.

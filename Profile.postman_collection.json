@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "2254ead9-f919-4fb7-8c57-ff34e3be7438",
+		"_postman_id": "7b37125f-b39b-4f05-9b3a-ec9eb57c58e3",
 		"name": "Profile",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "27354390"
+		"_exporter_id": "27354390",
+		"_collection_link": "https://galactic-zodiac-609411.postman.co/workspace/New-Team-Workspace~368ca613-0cf4-41f9-9557-65382a5563c9/collection/27354390-7b37125f-b39b-4f05-9b3a-ec9eb57c58e3?action=share&source=collection_link&creator=27354390"
 	},
 	"item": [
 		{
@@ -41,7 +42,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/create-profile",
+					"raw": "http://localhost:5000/api/profile/create-profile",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -49,6 +50,7 @@
 					"port": "5000",
 					"path": [
 						"api",
+						"profile",
 						"create-profile"
 					]
 				}
