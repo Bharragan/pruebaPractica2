@@ -17,11 +17,16 @@ const renderFrameworks = (frameworks) => (
     <h2>Frameworks</h2>
     <ul>
       {frameworks.map((framework, index) => (
-        <li key={index}>{framework.name}: {framework.level}</li>
+        <li key={index}>
+          <b>{framework.name}</b>: <b>{framework.level}</b>
+          <br />
+          {framework.year}
+        </li>
       ))}
     </ul>
   </div>
 );
+
 
 const Profile = () => {
   const [profile, setProfile] = useState({
