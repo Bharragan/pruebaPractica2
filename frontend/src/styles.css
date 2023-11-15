@@ -1,0 +1,33 @@
+/* modo-oscuro.css */
+body {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+/* Establece otros estilos específicos para elementos, como barras de navegación, si es necesario */
+.navbar {
+    background-color: #222; /* Fondo oscuro para la barra de navegación */
+    color: #fff; /* Texto blanco para la barra de navegación */
+}
+
+.cover-image {
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus preferencias */
+}
+/* Estilos para las tablas en modo oscuro */
+.table-dark {
+    background-color: #222 !important; /* Fondo oscuro */
+    color: #fff !important; /* Texto blanco */
+}
+
+/* Estilos para las celdas de encabezado (th) en modo oscuro */
+.table-dark th {
+    background-color: #111 !important; /* Fondo más oscuro para las celdas de encabezado */
+    color: #fff !important; /* Texto blanco para las celdas de encabezado */
+}
+
+/* Estilos para las celdas de datos (td) en modo oscuro */
+.table-dark td {
+    background-color: #333 !important; /* Fondo de celdas de datos en modo oscuro */
+}
